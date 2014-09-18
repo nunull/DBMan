@@ -1,5 +1,10 @@
 package de.timmalbers.dbMan.scheme;
 
+/**
+ * Used for binding an attribute to a table scheme (See {@link TableScheme.bind(String attribute)} for further information)
+ *
+ * @author Timm Albers
+ */
 public class BindingTargetKey {
 	private TableScheme tableScheme;
 	private TableScheme goalScheme;
